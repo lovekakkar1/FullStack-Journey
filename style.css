@@ -1,0 +1,44 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #070303;
+  color: rgb(159, 23, 148);   /* 👈 Pure red text */
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Heading */
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+button {
+  background-color: blue;   /* 👈 Button color */
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: darkblue;
+}
